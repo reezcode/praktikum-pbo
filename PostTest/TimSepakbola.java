@@ -46,7 +46,7 @@ class TimSepakbola {
     }
 
     System.out.println(
-      "Pertandingan antara " + lawan.nama + " dan " + lawan.nama + " dimulai!\n"
+      "Pertandingan antara " + this.nama + " dan " + lawan.nama + " dimulai!\n"
     );
     this.setIsOnMatch(true);
     lawan.setIsOnMatch(true);
@@ -100,7 +100,7 @@ class TimSepakbola {
 
     System.out.println(
       "\nPertandingan antara " +
-      lawan.nama +
+      this.nama +
       " dan " +
       lawan.nama +
       " selesai!\n"
