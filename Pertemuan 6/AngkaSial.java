@@ -6,15 +6,6 @@
  * Tanggal      : 29 Maret 2023
  */
 
- // Perbaikan
-
-class AngkaSialException extends Exception{
-    public AngkaSialException(String x){
-        super(x);
-    }
-}
-
- // --
 public class AngkaSial {
 
    public void cobaAngka(int angka) throws AngkaSialException{
