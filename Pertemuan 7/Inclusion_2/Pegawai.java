@@ -9,7 +9,7 @@
 
 public class Pegawai {
     protected String nama; // di modul ditulis private namun apabila diturunkan maka tidak bisa
-    protected int gajiPokok = 500000; /
+    protected int gajiPokok = 500000; 
     public Pegawai(String nama){
         this.nama = nama;
     }
