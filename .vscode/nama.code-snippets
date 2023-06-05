@@ -15,16 +15,17 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "inpo": {
+  "namaFile": {
     "scope": "java",
+    "prefix": "inpo",
     "body": [
-      /*
-       * Nama File    : namafile.java
-       * Nama Pembuat : Resma Adi Nugroho
-       * NIM          : 24060121120021
-       * Deskripsi    : desc
-       * Tanggal      : xx bulan 2023
-       */
+      "/*",
+      "* Nama File    : namafile.java",
+      "* Nama Pembuat : Resma Adi Nugroho",
+      "* NIM          : 24060121120021",
+      "* Deskripsi    : desc",
+      "* Tanggal      : xx bulan 2023",
+      "*/"
     ]
   }
 }
